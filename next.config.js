@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+  output: 'export',
   images: {
-    domains: ['img.youtube.com', 'i.ytimg.com'],
     unoptimized: true,
   },
-  output: 'export',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig; 

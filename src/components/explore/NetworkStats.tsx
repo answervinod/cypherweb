@@ -1,5 +1,7 @@
 import React from 'react';
 
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || '/api';
+
 const NetworkStats: React.FC<{ stats: Array<{ label: string; value: string }> }> = ({ stats }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
