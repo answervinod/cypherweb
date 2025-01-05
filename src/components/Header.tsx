@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-28">
           {/* Left section - Logo */}
-          <div className="flex-shrink-0 -ml-2">
+          <div className="flex-shrink-0 -ml-4">
             <Link href="/" className="flex items-center">
               <div className="relative w-[200px] h-[74px]">
                 {!imageError ? (
